@@ -1,3 +1,10 @@
+package com.example.model;
+
+import lombok.Data;
+
+/**
+ * @author maxiaoweii
+ */
 @Data
 public class Result<T> {
     private boolean success;

@@ -1,3 +1,8 @@
+package com.example.controller;
+
+import com.example.model.Result;
+import org.springframework.web.bind.annotation.*;
+
 @RestController
 @RequestMapping("/api")
 public class TestController {
