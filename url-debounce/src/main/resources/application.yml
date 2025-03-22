@@ -1,0 +1,15 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+
+debounce:
+  urls:
+    "/api/submit":
+      time: 2000
+      message: "提交太频繁，请稍后再试"
+      enabled: true
+    "/api/upload/*":
+      time: 5000
+      message: "上传太频繁，请稍后再试"
+      enabled: true
